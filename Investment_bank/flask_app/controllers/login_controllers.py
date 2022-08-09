@@ -13,4 +13,5 @@ from flask_app.models.user import User
 #     return render_template ("HOME.html")
 
 #     @app.route("/")
+
 # def dojos():
