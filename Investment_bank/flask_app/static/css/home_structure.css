@@ -1,0 +1,47 @@
+* {
+    padding: 0%;
+    margin: auto;
+}
+
+.Navbar {
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.navleft {
+height: ;
+width: ;
+}
+
+.navmid {
+
+}
+.navright{
+
+}
+.navright_top{
+
+}
+.navright_bottom{
+
+}
+.midbar {
+    display: flex;
+    height: 800px;
+    width: auto;
+    background-color: rgb(138, 94, 1);
+}
+
+.midtop {
+    width: auto;
+}
+.mid_center {
+    height: 400px;
+    width: auto;
+    background-color: black;
+}
+.midbottom {
+height: ;
+width: auto;
+}
