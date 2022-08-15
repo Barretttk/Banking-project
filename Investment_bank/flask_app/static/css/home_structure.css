@@ -2,46 +2,83 @@
     padding: 0%;
     margin: auto;
 }
-
+/* top Nav bar */
 .Navbar {
-    height: auto;
-    width: auto;
     display: flex;
+    height: 97px;
+    width: auto;
+    justify-content: center;
+    justify-items: center;
 }
 
-.navleft {
-height: ;
-width: ;
+.navtopleft{
+    display: flex;
+    flex-direction: row;
+    ;
 }
 
-.navmid {
-
-}
-.navright{
-
-}
 .navright_top{
-
+    display: flex;
+    flex-direction: row;
 }
+
 .navright_bottom{
-
+    height: 20px;
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
 }
+.navbottomright{
+    display: flex;
+    flex-direction: row;
+}
+
+.account_type{
+    margin-right: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.btn{
+width: 150px;
+height: auto;
+}
+
+/* body of page */
 .midbar {
     display: flex;
-    height: 800px;
+    flex-direction: column;
+    height: 780px;
     width: auto;
     background-color: rgb(138, 94, 1);
+    
 }
 
 .midtop {
+    height: 100px;
     width: auto;
-}
-.mid_center {
-    height: 400px;
-    width: auto;
+    
     background-color: black;
+    color: white;
+}
+
+.mid_center {
+    background-image: url("/Investment_bank/flask_app/static/img/banner_skydown.jpg");
+    display: flex;
+    flex-direction: row;
+    background-color: #cccccc;
+    height: 360px;
+    width: auto;
+    /* background-color: black; */
+}
+.leftoflogin{
+    height: auto;
+    width: ;
+}
+
+.login{
+
 }
 .midbottom {
-height: ;
+height: 50px;
 width: auto;
 }
