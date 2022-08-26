@@ -1,6 +1,13 @@
 from flask import Flask
+import re
+from flask_bcrypt import Bcrypt
+
+
 
 app = Flask(__name__)
+
+app.secret_key = "ofghsgogdoigsdikn"
+
 
 #================================
 # From what data base - ie schema
@@ -8,4 +15,7 @@ app = Flask(__name__)
 
 DATABASE = "bank_schema"
 
-app.secret_key = "ofghsgogdoigsdikn"
+
+EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
+
+bcrypt = Bcrypt(app)

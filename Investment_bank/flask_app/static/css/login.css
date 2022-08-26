@@ -1,0 +1,19 @@
+* {
+    padding: 0%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbottomright{
+    display: flex;
+    flex-direction: row;
+}
+
+card{
+    margin-top: 5em;
+}

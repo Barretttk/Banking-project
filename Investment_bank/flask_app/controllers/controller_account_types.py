@@ -1,11 +1,15 @@
 from flask_app import app
-from flask import render_template, redirect, request, session
+from flask import render_template, redirect, request, session, flash, jsonify
+from flask_bcrypt import Bcrypt
+bcrypt = Bcrypt(app)
+
 #==================================
 #import models from models folder
 #==================================
 
-from flask_app.models.bank import Bank
-from flask_app.models.user import User
+from flask_app.models.model_user import User
+
+
 
 
 # @app.route("/")
@@ -13,5 +17,3 @@ from flask_app.models.user import User
 
 #     return render_template ("home.html")
 
-#     @app.route("/")
-# def dojos():
