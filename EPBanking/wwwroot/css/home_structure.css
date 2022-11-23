@@ -1,0 +1,122 @@
+* {
+    padding: 0%;
+    margin: auto;
+}
+
+/* top Nav bar */
+
+.Navbar {
+    display: flex;
+    height: 97px;
+    width: auto;
+    justify-content: center;
+    justify-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.navtopleft{
+    display: flex;
+    flex-direction: row;
+    ;
+}
+
+.navright_top{
+    display: flex;
+    flex-direction: row;
+}
+
+.navright_bottom{
+    height: 20px;
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
+    color: darkorange;
+}
+.navbottomright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 9em;
+}
+
+.account_type{
+    display: flex;
+    /* margin-right: px; */
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.btn{
+width: 150px;
+height: auto;
+margin-left: 4em;
+}
+
+/* body of page */
+.midbar {
+    display: flex;
+    flex-direction: column;
+    /* height: 780px;
+    width: auto; */
+    background-color: rgb(138, 94, 1);
+    
+}
+
+.midtop {
+    display: flex;
+    height: auto;
+    width: auto;
+    /* justify-content: center; */
+    align-content: center;
+    
+    /* background-color: black; */
+    color: white;
+}
+.container1 {
+    height: 45em;
+    width: 100%;
+    background-image: url("../img/banner_skydown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid_center {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #cccccc; */
+    /* background-color: black; */
+}
+.leftoflogin{
+    /* margin-left: 60em;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(138, 94, 1);
+    height: 30em;
+    width: 20em;
+}
+
+.midbottom {
+    height: 50px;
+    width: auto;
+}
+
+.container{
+    margin-top: 9em;
+}
+
+
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* .log{
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+} */
